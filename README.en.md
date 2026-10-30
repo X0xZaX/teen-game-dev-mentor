@@ -15,6 +15,18 @@ The method was built on two real projects completed by a non-programmer through 
 
 The second project pushed the process to its limits; half the rules in the skill were learned from holes it fell into. For instance, "the AI must never verify its own fix with the same assumptions" comes from a direction sign error that took four versions to find. `examples/racing-lucas/` holds that project's real documents (SPEC, CHANGELOG, TESTPLAN, HANDOFF, in Traditional Chinese).
 
+## Play Racing Lucas
+
+🎮 **https://lucasracing.netlify.app/** — open in a desktop browser (keyboard: arrows / WASD, Space handbrake, Shift boost; G quality, F fps counter). Works offline too: the whole game is one HTML file.
+
+| Stage 5 Night Market | Stage 7 NEON LOOP |
+|---|---|
+| ![](docs/images/stage5_night_market.png) | ![](docs/images/stage7_neon_loop.png) |
+| **Stage 9 THE CORE (final-lap overload)** | **Split-screen two-player** |
+| ![](docs/images/stage9_core_final_lap.png) | ![](docs/images/split_screen.png) |
+
+Not one line of code in these screens was written by the product owner; what he wrote was the 84 acceptance criteria in `examples/racing-lucas/SPEC.md` and the bug / feel reports for every version.
+
 ## Core design
 
 | Mechanism | Problem it solves |

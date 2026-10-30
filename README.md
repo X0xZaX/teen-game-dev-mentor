@@ -15,6 +15,18 @@
 
 第二個專案把流程推到極限，skill 裡一半的規則是從那裡踩過的坑學來的——例如「AI 不可以用同一套假設驗證自己的修正」這條，來自一個方向符號錯誤繞了四個版本才抓到。`examples/racing-lucas/` 放的就是這個專案的真實文件（SPEC、CHANGELOG、TESTPLAN、HANDOFF）。
 
+## 試玩 Racing Lucas
+
+🎮 **https://lucasracing.netlify.app/** — 用電腦瀏覽器開（鍵盤操作：方向鍵／WASD、空白鍵手煞車、Shift 加速；G 畫質、F 顯示 fps）。離線也能玩：整個遊戲是一個 HTML 檔。
+
+| 第 5 關 夜市 | 第 7 關 霓虹環 NEON LOOP |
+|---|---|
+| ![](docs/images/stage5_night_market.png) | ![](docs/images/stage7_neon_loop.png) |
+| **第 9 關 核心 THE CORE（最後一圈過載）** | **雙人分割畫面** |
+| ![](docs/images/stage9_core_final_lap.png) | ![](docs/images/split_screen.png) |
+
+這些畫面裡沒有一行程式是產品負責人寫的；他寫的是 `examples/racing-lucas/SPEC.md` 裡的 84 條驗收標準，和每一版的 bug／體感回報。
+
 ## 核心設計
 
 | 機制 | 解決什麼問題 |
